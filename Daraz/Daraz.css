@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+   padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
+    
+}
+.a1{
+   width: 100%;
+}
+/* Shortcutmenu */
+.scmenu {
+    height: 25px;
+    width: 100%;
+    background-color: #999999;
+    color: #212121;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    /* padding: 2px; */
+    justify-content: space-around;
+    /* position: fixed;
+    top: 0; */
+    
+
+}
+.scmenu :hover {
+    transition: 13px 1s ease-in 3s;
+    text-decoration: underline orangered;
+    color: orangered;
+    background-color: #212121;
+}
+
+.a span {
+    color: orangered;
+}
+a {
+    color: #212121;
+    text-decoration: none;
+}
+
+/* Mainbar */
+
+.navbar{
+    height: 75px;
+    width: 100%;
+    font-size: 12px;
+    background-color: #ffffff;
+    color: #212121;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+    
+}
+
+.nav-logo {
+    height: 45px;
+    width: 130px;
+    
+
+
+}
+
+.logo {
+    background-image: url(daraz.png);
+    height: 45px;
+    width: 100%;
+    background-size: cover;
+    
+    
+}
+
+
+.search {
+    height: 19px;
+    width: 650px;
+    padding: 22px 19px;
+    background-color: #f5f5f5;
+    border: transparent;
+    border-radius: 10px;
+
+}
+.search:hover{
+    border: 2px solid orange;
+}
+
+.logoofsearch {
+    height: 45px;
+    width: 45px;
+    background-color: #f57224;
+    border: transparent;
+    border-radius: 10px;
+}
+.logoofsearch:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.logoofcart {
+    height: 45px;
+    width: 45px;
+    background-color: #999999;
+    border: transparent;
+    border-radius: 10px;
+}
+.logoofcart:hover{
+    background-color:  #666666;
+    cursor: pointer;
+}
+
+
+.logoofoffers {
+    height: 45px;
+    width: 190px;
+    background-color: #f57224;
+    border: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+}
+.logoofoffers:hover{
+    background-color: red;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Category */
+#sccategory{
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #666666;
+    
+    
+}
+
+  
+
+/* body */
+
+.upperbody{
+    height: 430px;
+    width: 100%;
+
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #222f3d;
+    transition: 2s ease-in-out;
+}
+.upperbody:hover{
+    background-image: url(ub\ never\ seen\ before.jpg);
+    cursor: pointer;
+    transition-duration: 2s;
+}
+.choices{
+    height: 50px;
+    width: 100%;
+    background-color: #f57224;
+    color: #f5f5f5;
+    display: inline-flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-around;
+
+    
+    
+}
+
+
+
+/* a .choose{
+    height: 30px;
+    width: 50px;
+    display: block;
+} */
+.choose:hover{
+    background-color: #a95454;
+    color: white;
+    
+
+}
+
+/* C */
+/* .category{
+    height: 40px;
+    width: 200px;
+    border: transparent;
+    margin-top: 15px;
+} */
+
+/* shopping */
+#flashsale{
+    margin-top: 20px;
+    height: 60px;
+    width: 100%;
+    color: #999999;
+    background-color: #f5f5f5;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+}
+
+.shopping{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.box{
+    height: 300px;
+    width: 23%;
+    /* border-radius: 2 2px 0 0; */
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    
+}
+.box:hover{
+    background-color: #ccc;
+    border: 2px solid #f57224;
+    /* border-radius: 20px; */
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.boximage1{
+    height: 85%;
+    width: 100%;
+    background-image: url(bottle.jpg);
+    background-size: cover;
+}
+.shopnow{
+    color: #a95454;
+}
+.shopnow:hover{
+    color: rgb(52, 110, 175);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.boximage2{
+    height: 85%;
+    width: 100%;
+    background-image: url(soap.jpg);
+    background-size: cover;
+    
+}
+.boximage3{
+    height: 85%;
+    width: 100%;
+    background-image: url(blender.jpg);
+    background-size: cover;
+    
+}
+.boximage4{
+    height: 85%;
+    width: 100%;
+    background-image: url(socks.jpg);
+    background-size: cover;
+    
+}
+
+/* video */
+video{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    border-top: 3px solid #f57224;
+    border-bottom: 3px solid #f57224;
+    /* border: 3px solid #f57224; */
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 0;
+   
+}
+/* categories */
+
+.boxcategories{
+    height: 250px;
+    width: 19%;
+    
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+}
+.boxcategories:hover{
+    background-color: #ccc;
+    border: 2px solid navy;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.boximage5{
+    height: 85%;
+    width: 100%;
+    background-image: url(c\ paste.jpg);
+    background-size: cover;
+    
+}
+.boximage6{
+    height: 85%;
+    width: 100%;
+    background-image: url(c\ moisturizers.jpg);
+    background-size: cover;
+    
+}
+.boximage7{
+    height: 85%;
+    width: 100%;
+    background-image: url(c\ milk.jpg);
+    background-size: cover;
+    
+}
+.boximage8{
+    height: 85%;
+    width: 100%;
+    background-image: url(c\ hand\ strengthner.jpg);
+    background-size: cover;
+    
+}
+.boximage9{
+    height: 85%;
+    width: 100%;
+    background-image: url(c\ door.jpg);
+    background-size: cover;
+    
+}
+.boximage10{
+    height: 85%;
+    width: 100%;
+    background-image: url(c\ ear\ phones.jpg);
+    background-size: cover;
+    
+}
+.boximage11{
+    height: 77%;
+    width: 100%;
+    background-image: url(c\ shapewear.jpg);
+    background-size: cover;
+    
+    
+}
+.boximage12{
+    height: 85%;
+    width: 100%;
+    background-image: url(c\ rings.jpg);
+    background-size: cover;
+    
+}
+.boximage13{
+    height: 85%;
+    width: 100%;
+    background-image: url(c\ smartwatches.jpg);
+    background-size: cover;
+    
+}
+.boximage14{
+    height: 85%;
+    width: 100%;
+    background-image: url(c\ water\ bottles.jpg);
+    background-size: cover;
+    
+}
+
+
+/* just for you */
+.boximage15{
+    height: 85%;
+    width: 100%;
+    background-image: url(jfu\ earbuds.webp);
+    background-size: cover;
+    
+}
+.boximage16{
+    height: 85%;
+    width: 100%;
+    background-image: url(jfu\ hairstraightner.webp);
+    background-size: cover;
+    
+}
+.boximage17{
+    height: 85%;
+    width: 100%;
+    background-image: url(jfu\ makeup.webp);
+    background-size: cover;
+    
+}
+.boximage18{
+    height: 85%;
+    width: 100%;
+    background-image: url(jfu\ wallet.webp);
+    background-size: cover;
+    
+}
+.boximage19{
+    height: 85%;
+    width: 100%;
+    background-image: url(jfu\ charging\ cable.webp);
+    background-size: cover;
+    
+}
+.boximage20{
+    height: 85%;
+    width: 100%;
+    background-image: url(jfu\ ring.webp);
+    background-size: cover;
+    
+}
+.boximage21{
+    height: 85%;
+    width: 100%;
+    background-image: url(jfu\ mob\ cover.webp);
+    background-size: cover;
+    
+}
+.boximage22{
+    height: 85%;
+    width: 100%;
+    background-image: url(jfu\ watch.webp);
+    background-size: cover;
+    
+}
+
+
+/* footer */
+
+#backtotop{
+    height: 40px;
+    width: 100%;
+    background-color: #f57224;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btt:hover{
+    background-color: #f57224;
+    color: white;
+}
+#btt{
+    color: #ffffff;
+    font-size: 20px;
+}
+#footpanel1{
+    background-color: #222f3d;
+    color: yellow;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+#footpanel1 a {
+    display: block;
+    font-size: 0.85rem;
+    color: white;
+    margin-top: 10px;
+}
+
+a p{
+    height: 30px;
+    width: 30px;
+    color: #a95454;
+}
+
+#copyright{
+     height: auto;
+     width: 100%;
+     font-size: 20px;
+     justify-content: center;
+     
+     background-color: #f5f5f5;
+     
+}
+summary{
+    color: #999999;
+    margin-top: 20px;
+}
+details{
+    color: #666666;
+}
+details p{
+    margin-top: 20px;
+}
+.shariq{
+    height: 50px;
+    width: 100%;
+    background-color: #f57224;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

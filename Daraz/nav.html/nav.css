@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-logo{
+    background-color: black;
+    color: aliceblue;
+}
+
+ .nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;  
+    margin-left: 550px;
+    background-color: black;
+    padding:15px;
+
+}
+a{
+    text-decoration: wavy;
+    color: aliceblue;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 30px;
+    justify-content: space-between;
+
+}
+.dis{
+    display: inline-flex;
+}
+/* .dis p{
+    
+    
+} */
+.back{
+    background-image: url(cmilk.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+    display: flex;
+    
+
+}
+.back:hover{
+    border: 2px solid black;
+}
+.input{
+    margin-left: 50px;
+}
+.inp{
+   width: 30%;
+   padding: 15px;
+   height: 20px;
+   padding-left: 20px;
+
+}
